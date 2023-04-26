@@ -87,3 +87,12 @@ button:hover {
 a{
 	padding: 50px;
 }
+
+.redes{
+	width: 50px;
+}
+
+.redesSociales img.redes:hover {
+	width: 65px;
+		
+}
