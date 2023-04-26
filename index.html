@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Encriptador</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+
+
+</head>
+<body>
+	<div class="container">
+		<h1>Encriptador</h1>
+		<label for="text"><strong>Texto:</strong> </label>
+		<textarea id="text"></textarea>
+		<div class="buttons">
+			<button id="encrypt" onclick="encrypt()"><strong>Encriptar</strong></button>	
+			<button id="decrypt" onclick="decrypt()"><strong>Desencriptar</strong></button>
+		</div>
+		<label for="result"><strong>Resultado:</strong> </label>
+		<textarea id="result" readonly></textarea>
+		<div class="buttons">
+			<button id="copy" onclick="copy()"><strong>Copiar</strong></button>
+		</div>
+	</div>
+	
+	
+</body>
+</html>
+

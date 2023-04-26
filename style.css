@@ -1,0 +1,89 @@
+body {
+	background-image: url('fondo/fondo.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+	margin: 40px;
+	width: 600px;
+	height: 520px;
+	padding: 20px;
+	background-image: url('fondo/contenedor.jpeg');
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4),
+	            0 0 20px rgba(0, 0, 0, 0.4) inset;
+	border: 2px solid #4f055c;
+}
+
+
+
+h1 {
+    text-align: center;
+    letter-spacing: 5px;
+	font: oblique bold 160% cursive;
+}
+  
+  
+h1:hover {
+    background-image: linear-gradient(to right, rgb(252, 5, 178), rgb(23, 4, 134));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+textarea {
+	display: block;
+	width: 98%;
+	min-height: 100px;
+	padding: 5px;
+	margin-bottom: 20px;
+	resize: none;
+	border-radius: 5px;
+	font-size: 20px;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+
+}
+
+button {
+	padding: 10px;
+	font-size: 16px;	
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #f378d8;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #b768ec;
+}
+
+#copy {
+	background-color: #008CBA;
+}
+
+#copy:hover {
+	background-color: #0073aa;
+}
+
+#result {
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+a{
+	padding: 50px;
+}
